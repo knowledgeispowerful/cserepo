@@ -2,7 +2,7 @@
     "sqltools.connections": [
         {
             "pgOptions": {
-                "ssl": false
+                "ssl": true
             },
             "previewLimit": 50,
             "server": "dpg-ctfo4e23esus73ata8jg-a.oregon-postgres.render.com",
