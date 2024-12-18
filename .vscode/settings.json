@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": false
+            },
+            "previewLimit": 50,
+            "server": "dpg-ctfo4e23esus73ata8jg-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dpg-ctfo4e23esus73ata8jg-a",
+            "database": "emmanuel235",
+            "username": "emmanuel235",
+            "password": "vM8TNi4f7O7VAOE5PSgVXYfzyXlT8zzx"
+        }
+    ]
+}
