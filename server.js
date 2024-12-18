@@ -102,13 +102,13 @@ app.use(async (err, req, res, next) => {
  * Server Configuration
  * Retrieves settings from .env file
  *******************************************************/
-const port = process.env.PORT;
-const host = process.env.HOST;
+const port = process.env.PORT || 5500;
+const host = process.env.HOST || '0.0.0.0';
 
 /* *******************************************************
  * Server Initialization
  * Logs a confirmation message when the server is running
  *******************************************************/
-app.listen(port, () => {
-  console.log(`app listening on ${host}:${port}`);
+app.listen(PORT, HOST, () => {
+  console.log(`App listening on ${HOST}:${PORT}`);
 });
